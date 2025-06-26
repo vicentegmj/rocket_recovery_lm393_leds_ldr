@@ -1268,7 +1268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:TIP122"
+		(symbol "Transistor_BJT:TIP120"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1285,7 +1285,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TIP122"
+			(property "Value" "TIP120"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1315,7 +1315,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5A Ic, 100V Vce, Silicon Darlington Power NPN Transistor, TO-220"
+			(property "Description" "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1342,7 +1342,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TIP122_0_1"
+			(symbol "TIP120_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.889 0)
@@ -1662,7 +1662,7 @@
 					)
 				)
 			)
-			(symbol "TIP122_1_1"
+			(symbol "TIP120_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -2073,16 +2073,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 69.85) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6985facb-fbaf-40e8-93d5-d3c436107921")
-	)
-	(wire
-		(pts
 			(xy 29.21 58.42) (xy 29.21 69.85)
 		)
 		(stroke
@@ -2090,6 +2080,16 @@
 			(type default)
 		)
 		(uuid "72b455d0-5544-44ff-9c59-adae9b746c22")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d57440-f64c-48b0-b2b7-b599d405352a")
 	)
 	(wire
 		(pts
@@ -2273,16 +2273,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 73.66 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a3f066-43ae-4caa-aa76-bcd5f9401bcf")
-	)
-	(wire
-		(pts
 			(xy 29.21 58.42) (xy 44.45 58.42)
 		)
 		(stroke
@@ -2300,6 +2290,16 @@
 			(type default)
 		)
 		(uuid "e50bff96-22e4-4b53-b897-f88bc5d15a06")
+	)
+	(wire
+		(pts
+			(xy 29.21 69.85) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed97d605-252f-4eca-8af1-5a2e560d5cdb")
 	)
 	(wire
 		(pts
@@ -2590,6 +2590,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:TIP120")
+		(at 168.91 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "301f17ff-9736-4c97-b8dc-e4682bdcdfdc")
+		(property "Reference" "Q2"
+			(at 175.26 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TIP120"
+			(at 175.26 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 173.99 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF"
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8aec5bc7-4bad-4590-9b58-e025c65d7e4b")
+		)
+		(pin "3"
+			(uuid "1b56e4aa-ef44-4e0c-95fb-c57eba3ce7b5")
+		)
+		(pin "1"
+			(uuid "fce490b4-393e-4a7b-ae95-7df3c8236001")
+		)
+		(instances
+			(project ""
+				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM393")
 		(at 132.08 48.26 0)
 		(unit 1)
@@ -2748,82 +2824,6 @@
 			(project ""
 				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:TIP122")
-		(at 168.91 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59746056-0166-402a-ad98-93c481f86b57")
-		(property "Reference" "Q1"
-			(at 175.26 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TIP122"
-			(at 175.26 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 173.99 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF"
-			(at 168.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "5A Ic, 100V Vce, Silicon Darlington Power NPN Transistor, TO-220"
-			(at 168.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f5b0fcb-0cbd-4178-85f9-7c018ebefb25")
-		)
-		(pin "3"
-			(uuid "037ad005-1c9a-425c-8eaa-5bb468b06675")
-		)
-		(pin "1"
-			(uuid "3b452350-5378-4753-874f-a8a1e54df4b6")
-		)
-		(instances
-			(project ""
-				(path "/ae093865-4f5b-4e6d-9eba-48d65543423e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3371,10 +3371,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a44aa4de-692c-483a-a774-d94f7a8a1077")
+			(uuid "a44aa4de-692c-483a-a774-d94f7a8a1078")
 		)
 		(pin "1"
-			(uuid "e1a1595f-f211-4646-a1d2-f2a90302e26d")
+			(uuid "e1a1595f-f211-4646-a1d2-f2a90302e26e")
 		)
 		(instances
 			(project ""
