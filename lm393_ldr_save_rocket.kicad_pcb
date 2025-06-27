@@ -6710,7 +6710,7 @@
 		(layer "Edge.Cuts")
 		(uuid "2101e184-ee32-4480-a116-56f4699b48e9")
 	)
-	(gr_text "Apogee-Ldr 24/Jun/25"
+	(gr_text "Apogee-Ldr Jun/25"
 		(at 118.5 94.25 90)
 		(layer "F.SilkS")
 		(uuid "47f18d07-807c-4d10-8d32-73fb4fecddf7")
