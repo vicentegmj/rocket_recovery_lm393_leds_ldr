@@ -5,10 +5,8 @@ Sistema eletrônico cuja funcionalidade prevista é liberar um paraquedas logo a
 Esquema elétrico 26-06-2025
 ![image](https://github.com/user-attachments/assets/b996d077-ec63-41c8-9e8d-c4cd08f96acb)
 
+Placa_1 de circuito 28-06-2025
+![placa1](https://github.com/user-attachments/assets/eb8afd34-16f2-456a-92ce-4b263c348428)
 
-
-Placa de circuito 26-06-2025
-![image](https://github.com/user-attachments/assets/81eeec35-4fca-4d29-ad53-4556ce269c7b)
-
-
-
+Placa_2 de circuito 28-06-2025
+![placa1](https://github.com/user-attachments/assets/9efa13b2-c8a7-4764-9819-2124bcb97e61)
