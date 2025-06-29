@@ -514,7 +514,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "lm393_ldr_save_rocket.step",
       "svg": "",
       "vrml": ""
     },
